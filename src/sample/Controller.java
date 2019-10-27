@@ -20,7 +20,7 @@ public class Controller {
     @FXML
     private void initialize() {
 
-        feistelCipher = new FeistelCipher(1);
+        feistelCipher = new FeistelCipher(16);
 
         encryptButton.setOnMouseClicked(mouseEvent -> handleEncryptButton());
         decryptButton.setOnMouseClicked(mouseEvent -> handleDecryptedButton());
